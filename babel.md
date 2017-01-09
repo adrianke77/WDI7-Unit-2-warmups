@@ -2,7 +2,7 @@
 
 ## What is Babel?
 
-Babel is primarily a transpiler, or source-to-source compiler - a type of compiler that converts source code written in one language and produces the equivalent code in another language. In the case of Babel, code is converted from ES6 (ECMAScript 6th Edition, officially known as ECMA Script 2015) to ES5 (ECMAScript 5 Edition).
+Babel is primarily a transpiler, or source-to-source compiler - a type of compiler that converts source code written in one language and produces the equivalent code in another language. In the case of Babel, its most common usage case is code conversion from ES6 (ECMAScript 6th Edition, officially known as ECMA Script 2015) to ES5 (ECMAScript 5 Edition).
 
 At this point in time (start of 2017), browser support for ES6 is incomplete. Transpiling to ES5 allows code to run more reliably on today's browsers.
 
