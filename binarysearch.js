@@ -11,7 +11,7 @@ BinSearchArray.prototype.findElement = function( number ) {
     if ( currentArray.length === 1 ) return `The value ${number} was not found`
     let currentEleIndex = Math.floor( currentArray.length / 2 );
     currentVal = currentArray[ currentEleIndex ];
-    console.log(currentArray,currentEleIndex,currentVal)
+    // console.log(currentArray,currentEleIndex,currentVal)
     if ( number > currentVal )
       currentArray = currentArray.slice( currentEleIndex + 1, currentArray.length );
     else
